@@ -21,33 +21,6 @@ This repository contains all the work done for the **solar project** using the `
 - **Performance Analysis**: Energy yield, performance ratio, temperature effects, etc.
 - **Visualization**: Professional plots for irradiance, power output, and system comparison
 
-## 📁 Repository Structure
-
-pvlib-solar-modeling/
-├── README.md                  
-├── LICENSE                    
-├── requirements.txt           
-├── environment.yml            
-├── .gitignore
-│
-├── data/                      # Raw and processed data
-│   ├── raw/
-│   │   ├── Dc 2016 data.csv
-│   └── processed/             # Cleaned/POA data
-│       ├── df_poa.csv
-        ├── poa_data_io.csv
-├── notebooks/                 
-│   ├── 01_data_preparation.ipynb
-│   ├── 02_solar_position_and_irradiance.ipynb
-│   ├── 03_fixed_tilt_system.ipynb
-│   ├── 04_single_axis_tracking.ipynb
-│   ├── 05_rooftop_system_modeling.ipynb
-│   └── 06_results_analysis.ipynb
-├── plots/                     # All generated figures (high quality)
-│   ├── fixed_tilt/
-│   ├── single_axis/
-│   ├── solar irradiance plots/
-
 ## 🚀 Key Analyses
 
 ### 1. Data Preparation & POA Transposition
